@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Pied Piper</title>
+    <link rel="icon" href="./assets/pied-piper.png">
+</head>
+<body>
+
+    <div id="info_wrapper">
+        <div id="top_wrapper" class="wrapper">
+            <div id="topbar_container" class="container">
+                
+            </div>
+            <div id="logo_container" class="container">
+                <img src="assets/logo.png" alt="logo" id="logo"/>
+            </div>
+            <div id="name_container" class="container">
+                <h1 id="name">Pied Piper</h1>
+            </div>
+        </div>
+        <div id="bottom_wrapper" class="wrapper">
+            <div id="tagline_container" class="container">
+                <h5 id="tagline">Where Less is Moooooooooore</h5>
+            </div>
+            <div id="signin_container" class="container">
+                <input type="button" id="signinbtn" value="Sign In" onclick="bringup_login()" />
+            </div>
+        </div>
+    </div>
+
+    <div id="login_wrapper">
+
+        <form action="loginV" method="post">
+            <div id="login_container">
+
+                <div class="login_parts" id="login_container_heading">
+                    <img src="assets/logo.png" alt="logo" id="logo"/><div id="space"></div><h1>Login</h1>
+                </div>
+    
+                <div class="login_parts" id="login_container_username">
+                    <input type="email" class="info_class" placeholder="Email" name="lemail" required/>
+                </div>
+                
+                <div class="login_parts" id="login_container_password">
+                    <input type="password" class="info_class" placeholder="Password" name="lpassword" required/>
+                </div>
+    
+                <div class="login_parts" id="login_container_forgot_password">
+                    <p><a href="#" id="forgot_pass">Forgot Password?</a></p>
+                </div>
+    
+                <div class="login_parts" id="login_container_login_btn">
+                    <input type="submit" class="submit_btn" value="Log In" />
+                </div>
+    
+                <div class="login_parts" id="login_container_sign_up">
+                    <p id="new_sign_up">New Here? <a href="./signup.html" >Sign Up</a></p>
+                </div>
+    
+            </div>
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>

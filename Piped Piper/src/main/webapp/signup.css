@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#logo{
+    width: 10%;
+}
+
+#name{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 8ch;
+}
+
+#new_login{
+	font-family: 'Poppins', sans-serif;
+}
+
+#signup_wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup_container{
+    height: 60vh;
+    width: 30vw;
+    border-radius: 2vh;
+}
+
+.signup_parts{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup_container_heading{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 3ch;
+    color: #146a55;
+}
+
+#space{
+    width: 2%;
+    height: 4vh;
+}
+
+.info_class_name{
+    height: 4vh;
+    width: 37%;
+    border: 0.1vh solid black;
+    outline: none;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2ch;
+    font-weight: 600;
+}
+
+.info_class{
+    height: 4vh;
+    width: 80%;
+    border: 0.1vh solid black;
+    outline: none;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2ch;
+    font-weight: 600;
+}
+
+.submit_btn {
+    height: 4vh;
+    width: 80%;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3ch;
+    font-weight: 600;
+    background-color: #229c71;
+}

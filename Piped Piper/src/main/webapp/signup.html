@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signup.css" />
+    <title>Sign Up</title>
+    <link rel="icon" href="./assets/pied-piper.png">
+</head>
+<body>
+
+    <div id="signup_wrapper">
+
+        <form action="addusr" method="post">
+            <div id="signup_container">
+
+                <div class="signup_parts" id="signup_container_heading">
+                    <img src="assets/logo.png" alt="logo" id="logo"/><div id="space"></div><h1>Signup</h1>
+                </div>
+    
+                <div class="signup_parts" id="signup_container_username">
+                    <input type="text" class="info_class_name" placeholder="First Name" name="firstname" required/>
+                    <div id="space"></div>
+                    <input type="text" class="info_class_name" placeholder="Last Name" name="lastname" required/>
+                </div>
+                
+                <div class="signup_parts" id="signup_container_password">
+                    <input type="email" class="info_class" placeholder="Email" name="email" required/>
+                </div>
+    
+                <div class="signup_parts" id="signup_container_forgot_password">
+                    <input type="password" class="info_class" placeholder="Password" name="password" required/>
+                </div>
+    
+                <div class="signup_parts" id="signup_container_signup_btn">
+                    <input type="submit" class="submit_btn" value="Sign Up" />
+                </div>
+    
+                <div class="signup_parts" id="signup_container_sign_up">
+                    <p id="new_login">Have An Account? <a href="./index.html">Log In</a></p>
+                </div>
+    
+            </div>
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>

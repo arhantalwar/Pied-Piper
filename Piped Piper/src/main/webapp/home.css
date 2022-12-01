@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#hdr{
+	font-family: 'Poppins', sans-serif;
+    font-size: 4ch;
+    background-color: aliceblue;
+    padding: 2.5vh;
+    border-radius: 3vh;
+}
+
+#top_nav_container{
+    height: 9vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+
+#piper_container{
+    width: 20%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4vh;
+}
+
+#search_container{
+    width: 60%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log_out_container{
+    width: 20%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#log_out_btn{
+    height: 4vh;
+    width: 10vw;
+    outline: none;
+    border: none;
+    border-radius: 1vh;
+    background-color: #f1f3f4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2ch;
+    font-weight: 600;
+}
+
+#space{
+    width: 3%;
+    height: 4vh;
+}
+
+#p_name{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 3ch;
+}
+
+#p_search{
+    height: 0.5vh;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 1vh;
+    background-color: #f1f3f4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2ch;
+    font-weight: 600;
+    padding: 2vh;
+}
+
+#file_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 5vh;
+	width: 100%; 
+}
+
+#file_upload_btn{
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+#info_table {
+	  position: fixed;
+	  top: 20vh;
+	  font-family: 'Poppins', sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+}
+
+#info_table td, #info_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#info_table tr:hover {background-color: #ddd;}
+
+#info_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  font-family: 'Alexandria', sans-serif;
+  color: white;
+}
+
+

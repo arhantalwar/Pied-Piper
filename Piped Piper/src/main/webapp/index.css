@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#info_wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper{
+    height: 50vh;
+    width: 100%;
+}
+
+.container{
+    height: 25vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:nth-child(1){
+    height: 10vh;
+}
+
+.container:nth-child(3){
+    height: 15vh;
+}
+
+#space{
+    width: 2%;
+    height: 4vh;
+}
+
+#logo{
+    width: 10%;
+}
+
+#name{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 8ch;
+}
+
+#tagline{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4ch;
+    background-color: aliceblue;
+    padding: 2.5vh;
+    border-radius: 3vh;
+}
+
+#signinbtn{
+    height: 4vh;
+    width: 6vw;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5ch;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+#login_wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_container{
+    height: 60vh;
+    width: 30vw;
+    border-radius: 2vh;
+}
+
+.login_parts{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_container_heading{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 3ch;
+    color: #146a55;
+}
+
+#forgot_pass{
+	font-family: 'Poppins', sans-serif;
+}
+
+#new_sign_up{
+	font-family: 'Poppins', sans-serif;
+}
+
+.info_class{
+    height: 4vh;
+    width: 80%;
+    border: 0.1vh solid black;
+    outline: none;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2ch;
+    font-weight: 600;
+}
+
+.submit_btn {
+    height: 4vh;
+    width: 80%;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3ch;
+    font-weight: 600;
+    background-color: #229c71;
+}
